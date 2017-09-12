@@ -1,0 +1,7 @@
+com/adobe/community/InvokeSling.class
+com/adobe/community/impl/HelloServiceImpl.class
+com/adobe/community/impl/filters/LoggingFilter.class
+com/adobe/community/package-info.class
+com/adobe/community/HelloService.class
+com/adobe/cq/sling/HandleClaim.class
+com/adobe/community/InvokeSlingServlet.class

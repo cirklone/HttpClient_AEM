@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><metatype:MetaData xmlns:metatype="http://www.osgi.org/xmlns/metatype/v1.0.0" localization="OSGI-INF/metatype/metatype">
+    <OCD id="com.adobe.community.InvokeSlingServlet" name="%com.adobe.community.InvokeSlingServlet.name" description="%com.adobe.community.InvokeSlingServlet.description"/>
+    <OCD id="com.adobe.cq.sling.HandleClaim" name="%com.adobe.cq.sling.HandleClaim.name" description="%com.adobe.cq.sling.HandleClaim.description">
+        <AD id="sling.servlet.paths" type="String" default="/bin/mySearchServlet" name="%sling.servlet.paths.name" description="%sling.servlet.paths.description"/>
+        <AD id="sling.servlet.methods" type="String" default="GET" name="%sling.servlet.methods.name" description="%sling.servlet.methods.description"/>
+        <AD id="sling.auth.requirements" type="String" default="-/bin/mySearchServlet" name="%sling.auth.requirements.name" description="%sling.auth.requirements.description"/>
+    </OCD>
+    <Designate pid="com.adobe.community.InvokeSlingServlet">
+        <Object ocdref="com.adobe.community.InvokeSlingServlet"/>
+    </Designate>
+    <Designate pid="com.adobe.cq.sling.HandleClaim">
+        <Object ocdref="com.adobe.cq.sling.HandleClaim"/>
+    </Designate>
+</metatype:MetaData>
