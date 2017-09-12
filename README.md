@@ -3,6 +3,14 @@ My Project
 
 This a content package project generated using the multimodule-content-package-archetype.
 
+To complete the tutorial follow the below article.
+
+Invoking Adobe Experience Manager Sling Servlets using Apache HTTP APIs
+--------
+
+
+https://helpx.adobe.com/experience-manager/using/HttpClient_AEM.html
+
 Building
 --------
 
